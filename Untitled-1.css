@@ -1,0 +1,25 @@
+
+        body{
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        h1{
+            color: rgb(43, 38, 38);
+        }
+        h2{
+            color: rgb(53, 51, 51);
+        }
+        footer{
+            color: rgb(8, 34, 92);
+            position:absolute;
+            bottom: 12px;
+
+        }
+        a{
+            font-size: medium;
+            color: rgb(0, 0, 0);
+
+            
+        }
