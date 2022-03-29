@@ -1,0 +1,14 @@
+body{   
+
+    margin: 0px;
+  }
+  .baslik{
+    
+    background-image: url(baslik_background.jpg);
+    background-size:contain;
+    padding: 20px;
+    width: 100%;
+    border: dashed;
+    border-color: white;
+    text-align: center;
+}

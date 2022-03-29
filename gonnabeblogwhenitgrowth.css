@@ -5,8 +5,13 @@
             background-attachment: fixed;
             text-align: center;
         }
-        h1{
+        p[a]{
             color: rgb(43, 38, 38);
+            font-style:italic;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 150%;
+            font-family:'Times New Roman', Times;
         }
         h2{
             color: rgb(53, 51, 51);
