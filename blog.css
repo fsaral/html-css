@@ -2,8 +2,7 @@ body{
 
     margin: 0px;
   }
-  .baslik{
-    
+.header{
     background-image: url(baslik_background.jpg);
     background-size:contain;
     padding: 20px;
@@ -11,4 +10,32 @@ body{
     border: dashed;
     border-color: white;
     text-align: center;
+}
+nav{
+  display: flex;
+  background-image: url(baslik_background.jpg);
+  background-color:rgb(51, 46, 103);
+  justify-content: center ;
+
+}
+ul {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  list-style-type: none;
+  background-color: grey;
+  margin: 10px;
+  padding: 10px;
+}
+a{
+  color: whitesmoke;
+}
+a:hover{
+  color: brown;
+}
+.menu li{
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+  margin:10px;
 }
