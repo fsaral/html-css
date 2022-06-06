@@ -7,9 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8081",
-            "webRoot": "${workspaceFolder}"
+            "name": "Open encrypt-it.html",
+            "file": "C:\\Users\\Furkan Saral\\Desktop\\html-css\\gonnabeblogwhenitgrowth.html"
         }
     ]
 }
