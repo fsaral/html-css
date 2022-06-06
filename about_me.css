@@ -1,0 +1,72 @@
+body{   
+    background-color: rgb(5, 5, 68);
+    margin: 0px;
+  }
+header{
+    background-image: url(header_photo.jpg);
+    background-size:contain;
+    background-repeat:space;
+    background-color: rgb(5, 5, 68);
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 320px;
+    border-color: white;
+    text-align: center;
+    font-family:serif;
+  }
+  header p{
+    font-size: large;
+  }
+nav{
+  display: flex;
+  justify-content: space-around ;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  margin:10px;
+}
+.menu li{ 
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  block-size: 30px;
+  width: 300px;
+}
+.menu a{
+  text-decoration: wavy;
+  opacity: 50%;
+}
+.menu :hover{
+  background:rgb(91, 83, 83);
+  opacity: 100%;
+  transition: 1000ms;
+} 
+a{
+  color: rgb(0, 0, 0);
+}
+a:hover{
+  color: rgb(240, 219, 219);
+}
+footer{
+  background-color: wheat;
+  color: rgb(8, 34, 92);
+  position:absolute;
+  bottom: 12px;
+}
+h1{
+    color: brown;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color: whitesmoke;
+    font-family:cursive 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
